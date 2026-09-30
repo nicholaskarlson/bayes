@@ -1,0 +1,21 @@
+{
+  "spec_id": "unit06-workshop-partial-pooling-v1",
+  "source": "data/unit06_workshop_confidence.csv",
+  "observation_unit": "one fictional volunteer's single post-workshop score",
+  "group_unit": "one of eight fictional workshops, with 4 to 20 students each",
+  "outcome": "confidence_score, a fictional 0-100 self-report score, not an observed improvement",
+  "target": "workshop-specific latent mean confidence scores under an exchangeable group model",
+  "design_limit": "neither workshop effects nor an estimate for any actual student population; no before score, assignment, or representative sample",
+  "preprocessing": "unchanged rows; no missing values, exclusion, covariate adjustment, or imputation",
+  "familiar_routes": "complete-pooling mean over all 80 records, and eight separate raw group means; no-pooled intervals are not claimed",
+  "likelihood": "confidence_score_ij | theta_j ~ independent Normal(theta_j, sigma=8 points), conditional on group means; sigma fixed",
+  "group_prior": "theta_j | mu ~ independent Normal(mu, tau=5 points), conditional on mu; tau fixed",
+  "hyperprior": "mu ~ Normal(55 points, SD 10 points)",
+  "sensitivity": "recalculate with tau=2 and tau=10 points, leaving the same data, hyperprior and residual sigma",
+  "posterior": "exact joint multivariate Normal for mu and eight theta_j, integrating uncertainty in mu; no MCMC",
+  "comparison": "P(theta_W01 > theta_W08) uses posterior covariance; not a probability that a workshop caused higher scores",
+  "prior_predictive": "95% interval for an n=4 group mean before seeing scores and probability a single score lies outside the 0-100 scale",
+  "posterior_predictive": "expected centered within-workshop sum of squares for a replicated cohort at the same eight group sizes, sigma fixed; no threshold test",
+  "missing": "none in the teaching file",
+  "population_scope": "80 fictional convenience volunteers in eight fictional workshops"
+}

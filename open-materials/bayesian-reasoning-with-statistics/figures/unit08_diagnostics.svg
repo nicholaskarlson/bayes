@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550" role="img" aria-labelledby="title desc">
+<title id="title">Unit 8 model criticism and matched sensitivity</title>
+<desc id="desc">Panel one: prior chance of zero poster reports among twelve is 0.029 with Beta two two and 0.077 with Beta one one. Panel two: probabilities that the paired mean exceeds two points under matched Normal and Student t four likelihoods. For all 64, 0.636 and 0.750; without P059, 0.530 and 0.687; without P042, 0.732 and 0.806. A classroom 0.60 threshold is crossed by the Normal result when P059 is omitted. This does not choose a real action.</desc>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif;fill:#173247}.head{font-size:22px;font-weight:bold}.lab{font-size:17px}.val{font-size:17px;font-weight:bold}.note{font-size:15px}.axis{font-size:15px}</style>
+<rect width="960" height="550" fill="#fff"/><text x="28" y="37" class="head">A rare zero, then an influential paired record</text>
+<rect x="22" y="54" width="916" height="131" fill="#f2f6f6"/><text x="34" y="78" class="lab">Prior chance of 0/12 poster reports</text>
+<text x="34" y="114" class="lab">Beta(2,2)</text><rect x="179" y="99" width="8.86" height="20" fill="#287b85"/><text x="202.86" y="115" class="val">0.029</text>
+<text x="34" y="154" class="lab">Beta(1,1)</text><rect x="179" y="139" width="23.85" height="20" fill="#d68a38"/><text x="217.85" y="155" class="val">0.077</text>
+<text x="34" y="223" class="lab">P(paired mean &gt; 2) with the same Normal(0, 5²) prior</text>
+<line x1="179" y1="236" x2="179" y2="458" stroke="#526675"/><line x1="365" y1="236" x2="365" y2="458" stroke="#805140" stroke-dasharray="5 4"/>
+<text x="365" y="476" class="axis">Toy 0.60 threshold</text>
+<text x="34" y="267" class="lab">All 64 Normal</text><rect x="179" y="252" width="197.29" height="20" fill="#287b85"/><text x="391.29" y="268" class="val">0.636</text><text x="34" y="294" class="lab">All 64 t(4)</text><rect x="179" y="279" width="232.58" height="20" fill="#d68a38"/><text x="426.58" y="295" class="val">0.750</text><text x="34" y="336" class="lab">Omit P059 Normal</text><rect x="179" y="321" width="164.37" height="20" fill="#287b85"/><text x="358.37" y="337" class="val">0.530</text><text x="34" y="363" class="lab">Omit P059 t(4)</text><rect x="179" y="348" width="213.06" height="20" fill="#d68a38"/><text x="407.06" y="364" class="val">0.687</text><text x="34" y="405" class="lab">Omit P042 Normal</text><rect x="179" y="390" width="226.83" height="20" fill="#287b85"/><text x="420.83" y="406" class="val">0.732</text><text x="34" y="432" class="lab">Omit P042 t(4)</text><rect x="179" y="417" width="249.77" height="20" fill="#d68a38"/><text x="443.77" y="433" class="val">0.806</text>
+<text x="34" y="513" class="note">Normal SD 4; Student-t(4) scale √8; conditional variance 16. Omission is a diagnostic, not deletion.</text>
+<text x="34" y="536" class="note">Post hoc sensitivity and fictional data. No causal effect, model probability, or validated action threshold.</text>
+</svg>

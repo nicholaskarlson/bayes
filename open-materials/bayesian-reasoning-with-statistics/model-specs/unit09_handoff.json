@@ -1,0 +1,16 @@
+{
+  "schema_version": "unit09-research-handoff-v1",
+  "case": "unit07-help-seeking-routes-v1",
+  "source_csv": "data/unit07_help_seeking_routes.csv",
+  "audited_reference": "expected-results/unit07_proportions.json",
+  "audited_model": "model-specs/unit07_proportions.json",
+  "target": "conditional difference theta_desk minus theta_poster in seven-day self-reports for comparable fictional volunteers",
+  "observation_unit": "one fictional convenience volunteer; one recruitment route; one seven-day binary self-report",
+  "primary_prior": "independent Beta(1,1) for both route probabilities",
+  "sensitivity_prior": "independent Beta(2,2) for both route probabilities",
+  "likelihood": "within-route independent Bernoulli reports conditional on route-specific probability",
+  "method_choice": "counts describe the authored file; a disclosed exact Beta model can answer conditional probability questions; an intervention effect requires a better comparison design",
+  "illustrative_magnitude": "0.10 probability-scale difference is a learning threshold, not a validated benefit",
+  "scope": "fictional convenience volunteers; conditional route association, no causal effect or campus rate; prior and posterior predictive checks are in-sample; no MCMC",
+  "report_status": "reproducible teaching report, not a pre-registered real study or release manuscript"
+}

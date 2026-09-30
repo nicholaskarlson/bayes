@@ -1,0 +1,13 @@
+{
+  "schema_version": "unit04-joint-predictive-1",
+  "cohort_size": 64,
+  "replicates_per_distribution": 30000,
+  "prior_seed_python": 20260928,
+  "posterior_seed_python": 20260929,
+  "r_seed": 20261030,
+  "independent_python_seed": 20261031,
+  "absolute_tail_cutoff_points": 8,
+  "large_change_cutoff_points": 15,
+  "statistics": ["mean", "sample_variance", "count_abs_gt_8", "count_negative", "moment_skewness"],
+  "interpretation": "One shared mean and variance per replicated 64-person cohort; direct conjugate draws, not MCMC; posterior checks reuse data and are descriptive model criticism."
+}

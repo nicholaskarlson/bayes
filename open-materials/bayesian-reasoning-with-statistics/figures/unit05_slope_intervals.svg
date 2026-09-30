@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">Unit 5 study-hours slopes under two procedures and two priors</title>
+<desc id="desc">All estimates are points of belonging score per extra reported study hour. OLS unadjusted: 3.274, 95 percent t interval 2.139 to 4.409. OLS adjusted for commute: 2.766, interval 1.572 to 3.959. Exact Bayesian primary: 2.554, 95 percent credible interval 1.423 to 3.685. Exact Bayesian skeptical: 0.852, credible interval 0.199 to 1.505. A dashed reference at one point per hour is illustrative, not a validated meaningful effect.</desc>
+<rect width="1200" height="460" fill="#ffffff"/>
+<text x="34" y="41" font-size="28" font-family="DejaVu Sans, sans-serif" fill="#172c3c" font-weight="bold">Slope per reported study hour</text>
+<text x="35" y="73" font-size="19" font-family="DejaVu Sans, sans-serif" fill="#384b57">Fictional survey; endpoints describe different uncertainty procedures</text>
+<g stroke="#d8e2e6" stroke-width="1"><path d="M350 94V383 M510 94V383 M670 94V383 M830 94V383 M990 94V383 M1070 94V383"/></g>
+<path d="M510 94V383" stroke="#996d25" stroke-width="2.5" stroke-dasharray="8 6"/>
+<g font-family="DejaVu Sans, sans-serif" font-size="21" fill="#172c3c">
+<text x="36" y="139">OLS, unadjusted</text><text x="36" y="211">OLS, commute adjusted</text>
+<text x="36" y="283">Bayes, primary prior</text><text x="36" y="355">Bayes, skeptical prior</text>
+</g>
+<g fill="none" stroke="#164b65" stroke-width="6" stroke-linecap="round">
+<path d="M692.3 132H1055.4"/><path d="M601.5 204H983.5"/>
+</g>
+<g fill="none" stroke="#98662e" stroke-width="6" stroke-linecap="round">
+<path d="M577.7 276H939.6"/><path d="M381.8 348H590.8"/>
+</g>
+<g stroke="#164b65" stroke-width="4"><path d="M692.3 118V146 M1055.4 118V146 M601.5 190V218 M983.5 190V218"/></g>
+<g stroke="#98662e" stroke-width="4"><path d="M577.7 262V290 M939.6 262V290 M381.8 334V362 M590.8 334V362"/></g>
+<g fill="#164b65"><circle cx="873.8" cy="132" r="9"/><circle cx="792.5" cy="204" r="9"/></g>
+<g fill="#98662e"><circle cx="758.7" cy="276" r="9"/><circle cx="486.3" cy="348" r="9"/></g>
+<path d="M350 383H1070" stroke="#344955" stroke-width="2"/>
+<g font-family="DejaVu Sans, sans-serif" font-size="18" fill="#273e4c" text-anchor="middle">
+<text x="350" y="410">0</text><text x="510" y="410">1</text><text x="670" y="410">2</text><text x="830" y="410">3</text><text x="990" y="410">4</text><text x="1070" y="410">4.5</text>
+<text x="710" y="445" font-size="20">Belonging score points per reported study hour</text>
+</g>
+</svg>

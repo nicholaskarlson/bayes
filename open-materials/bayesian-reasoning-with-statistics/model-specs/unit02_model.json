@@ -1,0 +1,25 @@
+{
+  "spec_id": "unit02-beta-binomial-v1",
+  "target": "theta, conditional probability of a reported contact within seven days for a volunteer from a comparable fictional regime",
+  "sampling": "Twelve binary records treated as conditionally independent Bernoulli(theta); Y is their sum, Binomial(12,theta)",
+  "primary_prior": {
+    "distribution": "Beta",
+    "alpha": 2,
+    "beta": 2
+  },
+  "sensitivity_priors": [
+    {
+      "alpha": 1,
+      "beta": 1
+    },
+    {
+      "alpha": 8,
+      "beta": 8
+    }
+  ],
+  "posterior": "Beta(alpha+Y,beta+n-Y)",
+  "predictive": "beta-binomial for another 12 exchangeable records under the same model",
+  "missing": "none in this fully specified fictional case",
+  "decision_threshold": "0.5 is an illustrative probability-scale reference, not a validated action threshold",
+  "computation": "exact conjugate update and beta functions; no MCMC"
+}

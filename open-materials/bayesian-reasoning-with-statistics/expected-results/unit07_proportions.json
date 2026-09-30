@@ -1,0 +1,76 @@
+{
+  "data_sha256": "977c642c0145a112ff3968313bce9cbcfc19fc4704aa9855c54a7329121cd0c1",
+  "desk_n": 24,
+  "desk_y": 8,
+  "n": 36,
+  "poster_n": 12,
+  "poster_y": 0,
+  "primary": {
+    "P_difference_gt_0_10": 0.9373842003120197,
+    "P_difference_gt_zero": 0.987467306015693,
+    "desk_95": [
+      0.17971682058365537,
+      0.5350007174973723
+    ],
+    "desk_mean": 0.34615384615384615,
+    "desk_posterior": [
+      9,
+      17
+    ],
+    "difference_95": [
+      0.04152285318893968,
+      0.48982544613971385
+    ],
+    "difference_mean": 0.27472527472527475,
+    "poster_95": [
+      0.0019456284973467482,
+      0.24705263800047092
+    ],
+    "poster_mean": 0.07142857142857142,
+    "poster_posterior": [
+      1,
+      13
+    ],
+    "posterior_predictive_poster_zero": 0.5200000000000001,
+    "prior": [
+      1,
+      1
+    ],
+    "prior_predictive_poster_zero": 0.07692307692307693
+  },
+  "scope": "fictional convenience volunteers; route association only; no causal effect or campus rate; exact no MCMC",
+  "sensitivity": {
+    "P_difference_gt_0_10": 0.8669809472805591,
+    "P_difference_gt_zero": 0.9673916204583348,
+    "desk_95": [
+      0.1940071587151351,
+      0.5396072860922572
+    ],
+    "desk_mean": 0.35714285714285715,
+    "desk_posterior": [
+      10,
+      18
+    ],
+    "difference_95": [
+      -0.016721156270119813,
+      0.45636163145584224
+    ],
+    "difference_mean": 0.23214285714285715,
+    "poster_95": [
+      0.016575913440083623,
+      0.3194845665783034
+    ],
+    "poster_mean": 0.125,
+    "poster_posterior": [
+      2,
+      14
+    ],
+    "posterior_predictive_poster_zero": 0.2991452991452992,
+    "prior": [
+      2,
+      2
+    ],
+    "prior_predictive_poster_zero": 0.028571428571428577
+  },
+  "spec_id": "unit07-help-seeking-routes-v1"
+}

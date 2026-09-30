@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+*.pyc
+open-materials/bayesian-reasoning-with-statistics/review/

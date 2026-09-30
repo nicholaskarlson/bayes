@@ -1,0 +1,16 @@
+{
+  "dataset": "unit04_reflection_attention_paired.csv",
+  "synthetic": true,
+  "rows": 64,
+  "row_unit": "one fictional participant",
+  "assignment": "none",
+  "recruitment": "fictional convenience cohort",
+  "columns": {
+    "participant_id": {"type": "unique string", "role": "pair identifier", "allowed": "P001 to P064", "missing": 0},
+    "before_score": {"type": "decimal", "role": "pre-period attention rating", "units": "points on illustrative 0-100 scale", "timing": "day 0", "missing": 0},
+    "after_score": {"type": "decimal", "role": "post-period attention rating", "units": "points on same illustrative 0-100 scale", "timing": "day 14", "missing": 0}
+  },
+  "derived_difference": "after_score - before_score; computed after loading, not stored in the CSV",
+  "real_person_records": false,
+  "claim_boundary": "The scores do not validate an attention construct or identify a treatment effect"
+}

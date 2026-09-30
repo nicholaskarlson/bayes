@@ -1,0 +1,14 @@
+{
+  "dataset": "unit07_help_seeking_routes.csv",
+  "status": "wholly fictional teaching records",
+  "observation_unit": "one unique volunteer; one recruitment route and one seven-day self-report",
+  "rows": 36,
+  "columns": {
+    "volunteer_id": {"type":"string", "meaning":"D001–D024 or P001–P012, identifiers only"},
+    "recruitment_route": {"type":"category", "levels":["desk","poster"], "meaning":"route through which this volunteer joined the fictional convenience study; not assigned"},
+    "reported_contact_7d": {"type":"integer", "levels":[0,1], "meaning":"self-reported at least one help-seeking contact within seven days; 0 is no report, not proof no contact or no need"}
+  },
+  "missing_values": "none in authored file; do not generalize the complete-record property to a real study",
+  "counts": {"desk":{"n":24,"ones":8},"poster":{"n":12,"ones":0}},
+  "population_warning":"No probability sample, causal allocation, service-log validation, or campus estimand."
+}

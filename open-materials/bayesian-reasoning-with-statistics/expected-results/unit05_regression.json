@@ -1,0 +1,96 @@
+{
+  "claim_limit": "fictional cross-sectional association; no effect of increasing hours or population inference",
+  "computation": "exact multivariate Normal conditional on fixed sigma; no MCMC",
+  "data_sha256": "60aefd0c569988e5856bd54979ae73207c825eb4dd67ab94afec6111296a5a31",
+  "long_commute_n": 36,
+  "n": 72,
+  "ols_adjusted": {
+    "coefficients": [
+      55.295025960309346,
+      2.76553546839604,
+      -4.506451704447304
+    ],
+    "residual_sd": 7.917833021418448,
+    "slope_95_t": [
+      1.5718417597083092,
+      3.9592291770837704
+    ]
+  },
+  "ols_unadjusted": {
+    "coefficients": [
+      53.02344014131324,
+      3.2739653174799144
+    ],
+    "residual_sd": 8.140175824816446,
+    "slope_95_t": [
+      2.1393561153680682,
+      4.40857451959176
+    ]
+  },
+  "posterior_primary": {
+    "mean": [
+      55.35352253821607,
+      2.5541642929440767,
+      -4.6109724287554235
+    ],
+    "observed_abs_residual_gt_16": 3,
+    "prob_slope_above_one": 0.9964654962059748,
+    "prob_slope_above_zero": 0.9999952159447308,
+    "replicated_expected_abs_residual_gt_16": 3.5889622309727844,
+    "slope_95": [
+      1.423286122085702,
+      3.685042463802451
+    ],
+    "slope_sd": 0.5769892609142806,
+    "two_hour_difference": 5.108328585888153
+  },
+  "posterior_scale_10": {
+    "mean": [
+      55.3748827337994,
+      2.450392374430522,
+      -4.648033098761976
+    ],
+    "observed_abs_residual_gt_16": 3,
+    "prob_slope_above_one": 0.9803292133092637,
+    "prob_slope_above_zero": 0.9997505186831956,
+    "replicated_expected_abs_residual_gt_16": 8.386240514008888,
+    "slope_95": [
+      1.0708320668090892,
+      3.829952682051955
+    ],
+    "slope_sd": 0.7038702335875702,
+    "two_hour_difference": 4.900784748861044
+  },
+  "posterior_skeptical": {
+    "mean": [
+      56.46104546507556,
+      0.8520982808739065,
+      -6.711842091148182
+    ],
+    "observed_abs_residual_gt_16": 5,
+    "prob_slope_above_one": 0.3285944202167534,
+    "prob_slope_above_zero": 0.9947184297216399,
+    "replicated_expected_abs_residual_gt_16": 3.5221331807697345,
+    "slope_95": [
+      0.19891320848545968,
+      1.505283353262353
+    ],
+    "slope_sd": 0.33326381379488973,
+    "two_hour_difference": 1.704196561747813
+  },
+  "prior_predictive_outside_0_100": [
+    0.004667348825081076,
+    0.014964001024084971
+  ],
+  "ranges": {
+    "belonging": [
+      25.9,
+      76.7
+    ],
+    "hours": [
+      1.8,
+      8.5
+    ]
+  },
+  "spec_id": "unit05-cross-sectional-regression-v1"
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="430" viewBox="0 0 820 430" role="img" aria-labelledby="title desc">
+  <title id="title">Choosing an analysis route after checking the question and study</title>
+  <desc id="desc">The research question leads to a study card for unit, measurement, comparison and population. From that card, choose description, a paired sampling interval, a conditional Bayesian posterior or a better study design according to the target.</desc>
+  <rect width="820" height="430" fill="#ffffff"/>
+  <text x="410" y="33" fill="#152b44" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="bold" text-anchor="middle">Choose the route after the question and study card</text>
+  <rect x="72" y="55" width="676" height="64" rx="8" fill="#183852"/>
+  <text x="410" y="81" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="bold" text-anchor="middle">What is the target?</text>
+  <text x="410" y="104" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="14" text-anchor="middle">Recorded change · model mean · magnitude · intervention effect</text>
+  <path d="M410 119V141" stroke="#567187" stroke-width="2.5"/>
+  <path d="M404 135L410 142 416 135" fill="none" stroke="#567187" stroke-width="2.5"/>
+  <rect x="72" y="144" width="676" height="71" rx="8" fill="#e8f0f3" stroke="#a4bac5"/>
+  <text x="410" y="171" fill="#183852" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="bold" text-anchor="middle">Inspect the study card</text>
+  <text x="410" y="194" fill="#183852" font-family="DejaVu Sans, sans-serif" font-size="14" text-anchor="middle">Observation unit · pairing · measure · comparison · population</text>
+  <path d="M410 215V241M208 241H612M208 241V257M612 241V257" fill="none" stroke="#567187" stroke-width="2.5"/>
+  <rect x="72" y="260" width="320" height="64" rx="8" fill="#edf4f7" stroke="#9bb5c2"/>
+  <rect x="428" y="260" width="320" height="64" rx="8" fill="#edf4f7" stroke="#9bb5c2"/>
+  <text x="232" y="285" fill="#183852" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Describe the recorded pairs</text>
+  <text x="232" y="306" fill="#183852" font-family="DejaVu Sans, sans-serif" font-size="13" text-anchor="middle">Mean, signs, distribution</text>
+  <text x="588" y="285" fill="#183852" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Model uncertainty</text>
+  <text x="588" y="306" fill="#183852" font-family="DejaVu Sans, sans-serif" font-size="13" text-anchor="middle">Interval or conditional posterior</text>
+  <rect x="72" y="338" width="676" height="63" rx="8" fill="#fff2e5" stroke="#d3a472"/>
+  <text x="410" y="363" fill="#563916" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Need an intervention effect?</text>
+  <text x="410" y="385" fill="#563916" font-family="DejaVu Sans, sans-serif" font-size="13" text-anchor="middle">Plan a defined comparison, assignment and valid measurement</text>
+</svg>

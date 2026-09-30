@@ -1,0 +1,5 @@
+parameter,value
+replicates_per_distribution,30000
+absolute_tail_cutoff_points,8
+large_change_cutoff_points,15
+r_seed,20261030

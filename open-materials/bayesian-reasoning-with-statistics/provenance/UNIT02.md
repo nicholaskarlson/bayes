@@ -1,0 +1,5 @@
+# Unit 2 fictional-record provenance
+
+The twelve binary rows were written solely for this teaching example, with the fixed sequence `1,0,1,1,0,1,1,0,1,1,0,1`. They are not sampled from people, the earlier jamovi book, or Unit 4. The identifiers are artificial. There is no private or empirical participant record, recruitment frame, missing record, or intervention assignment. The window is seven days after a fictional orientation; the response is a reported occurrence, not verified use, need, benefit, or an effect of orientation. The denominator is twelve volunteers. A Bernoulli model assumes exchangeability and conditional independence for its chosen target; the file alone cannot establish either. No generator parameter exists to reveal as inferential truth.
+
+The CSV, dictionary, model spec, exact output record, figure and scripts are checksum-covered. The analysis route reads the CSV without modifying it. The separate independent Python and base-R audits recalculate the anchors directly from the records and model specification.

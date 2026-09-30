@@ -1,0 +1,8 @@
+parameter,value
+m0,0
+kappa0,4
+a0,3
+b0,50
+meaningful_change,2
+rope_low,-1
+rope_high,1

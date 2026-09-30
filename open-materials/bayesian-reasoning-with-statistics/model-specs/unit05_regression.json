@@ -1,0 +1,20 @@
+{
+  "spec_id": "unit05-cross-sectional-regression-v1",
+  "source": "data/unit05_belonging_study.csv",
+  "observation_unit": "one fictional volunteer in a single cross-sectional survey",
+  "outcome": "belonging_score, a fictional self-report score from 0 to 100",
+  "exposures": ["study_hours_per_week, self-reported hours", "long_commute, 1 if a fictional commute is at least 45 minutes"],
+  "target": "conditional association of one additional reported study hour with mean belonging score among comparable fictional volunteers at the same long_commute value",
+  "design_limit": "neither an effect of changing hours nor a representative student-population association",
+  "preprocessing": "x=study_hours_per_week - 5; z=long_commute; no row exclusion or imputation",
+  "familiar_route": "unadjusted OLS y~1+x and adjusted OLS y~1+x+z, t intervals using each fitted residual SD; conditional means at fixed z",
+  "bayesian_likelihood": "independent Normal(y | alpha+beta*x+gamma*z, sigma=8 score points), with sigma fixed as a transparent working assumption",
+  "primary_prior": {"alpha": [55, 15], "beta": [0, 2], "gamma": [0, 10], "parameterization": "independent Normal(mean, SD), score points except beta points per reported hour"},
+  "sensitivity": {"beta_prior_sd": 0.4, "alternate_sigma": 10, "note": "a skeptical prior and a likelihood-scale stress test, not post-data defaults"},
+  "posterior": "exact multivariate Normal under fixed residual sigma, no MCMC",
+  "illustrative_magnitude_beta": 1,
+  "posterior_predictive_discrepancy": "number of absolute residuals exceeding 16 score points at fitted conditional mean; replicated expected count integrates posterior coefficient uncertainty and fixed sigma",
+  "prior_predictive_stress": "probability score falls outside 0 to 100 at hours 5/z=0 and hours 6.5/z=1 under the prior predictive Normal working model",
+  "missing": "none in the teaching file",
+  "population_scope": "72 fictional volunteers only; no probability sample or experimental hours assignment"
+}

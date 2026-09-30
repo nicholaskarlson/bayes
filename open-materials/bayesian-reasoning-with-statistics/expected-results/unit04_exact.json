@@ -1,0 +1,139 @@
+{
+  "bayesian_exact": {
+    "likelihood": "d_i independent Normal(mu, variance) conditional on mu and variance",
+    "primary": {
+      "a_n": 35.0,
+      "b_n": 593.5361029411765,
+      "df": 70.0,
+      "kappa0": 4.0,
+      "kappa_n": 68.0,
+      "m_n": 2.0661764705882355,
+      "mu_ci95": [
+        1.0701854141401927,
+        3.062167527036278
+      ],
+      "p_mu_gt_two": 0.5525218448850073,
+      "p_mu_gt_zero": 0.9999518309402176,
+      "p_mu_in_minus1_plus1": 0.01813227254061899,
+      "posterior_mu_scale": 0.49938453840920527,
+      "predictive_new_ci95": [
+        -6.2071466061560585,
+        10.339499547332528
+      ],
+      "predictive_new_scale": 4.148199523522233
+    },
+    "prior": {
+      "a0": 3.0,
+      "b0": 50.0,
+      "kappa0": 4.0,
+      "m0": 0.0,
+      "mu_given_variance": "Normal(m0, variance/kappa0)",
+      "variance": "InverseGamma(shape=a0, scale=b0), density proportional to v^(-a0-1) exp(-b0/v)"
+    },
+    "prior_predictive_new_ci95": [
+      -11.168573475823571,
+      11.168573475823566
+    ],
+    "sensitivity": [
+      {
+        "a_n": 35.0,
+        "b_n": 585.6598062015504,
+        "df": 70.0,
+        "kappa0": 0.5,
+        "kappa_n": 64.5,
+        "m_n": 2.1782945736434107,
+        "mu_ci95": [
+          1.1624455278416428,
+          3.194143619445178
+        ],
+        "p_mu_gt_two": 0.636323636392739,
+        "p_mu_gt_zero": 0.9999705216063025,
+        "p_mu_in_minus1_plus1": 0.011822447228632068,
+        "posterior_mu_scale": 0.5093412270591122,
+        "predictive_new_ci95": [
+          -6.043182063347766,
+          10.399771210634585
+        ],
+        "predictive_new_scale": 4.122203998545727
+      },
+      {
+        "a_n": 35.0,
+        "b_n": 593.5361029411765,
+        "df": 70.0,
+        "kappa0": 4.0,
+        "kappa_n": 68.0,
+        "m_n": 2.0661764705882355,
+        "mu_ci95": [
+          1.0701854141401927,
+          3.062167527036278
+        ],
+        "p_mu_gt_two": 0.5525218448850073,
+        "p_mu_gt_zero": 0.9999518309402176,
+        "p_mu_in_minus1_plus1": 0.01813227254061899,
+        "posterior_mu_scale": 0.49938453840920527,
+        "predictive_new_ci95": [
+          -6.2071466061560585,
+          10.339499547332528
+        ],
+        "predictive_new_scale": 4.148199523522233
+      },
+      {
+        "a_n": 35.0,
+        "b_n": 615.3084375000001,
+        "df": 70.0,
+        "kappa0": 16.0,
+        "kappa_n": 80.0,
+        "m_n": 1.75625,
+        "mu_ci95": [
+          0.8213013339321514,
+          2.6911986660678484
+        ],
+        "p_mu_gt_two": 0.30236296888756653,
+        "p_mu_gt_zero": 0.9998174359352076,
+        "p_mu_in_minus1_plus1": 0.05559630187272217,
+        "posterior_mu_scale": 0.46877821343664977,
+        "predictive_new_ci95": [
+          -6.658287994610639,
+          10.170787994610635
+        ],
+        "predictive_new_scale": 4.219003920929848
+      }
+    ]
+  },
+  "claim_boundary": "A before-after change cannot identify the effect of reflection practice",
+  "frequentist": {
+    "ci95": [
+      1.1663878185470085,
+      3.2242371814529913
+    ],
+    "df": 63,
+    "max_difference": 10.799999999999997,
+    "mean_difference": 2.1953125,
+    "min_difference": -6.5,
+    "n": 64,
+    "negative_count": 20,
+    "p_two_sided": 6.863457026525451e-05,
+    "paired_dz": 0.5329571312811628,
+    "sd_difference": 4.119116475133264,
+    "se": 0.514889559391658,
+    "t": 4.263657050249303
+  },
+  "question": {
+    "contrast": "after minus before",
+    "design": "uncontrolled before-after convenience cohort; no randomized comparison",
+    "target": "mean paired change in the model for this fictional recruited cohort"
+  },
+  "reporting_note": "All probabilities conditional on paired Normal likelihood and stated Normal-Inverse-Gamma prior",
+  "sampler": {
+    "kind": "none",
+    "mcmc_diagnostics": "not applicable; exact conjugate calculation"
+  },
+  "schema_version": "unit04-exact-1",
+  "source": {
+    "artifact_commit": null,
+    "csv_sha256": "113afe4664438b315a327631b62550005a717e328ced9ccca6dfd0fe03ab5056",
+    "model_spec_sha256": "175c523dfa9524b17cec080cd5c8ac79797b73ca0008f0beed5a7384c40d15dc",
+    "record_stage": "pre-commit pilot",
+    "source_base_commit": "f7efe9c43211bd6ecb52bcda951d6a34a9e7b044"
+  }
+}

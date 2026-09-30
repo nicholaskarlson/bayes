@@ -1,0 +1,37 @@
+root <- 'open-materials/bayesian-reasoning-with-statistics'
+# Use base R and the stable, machine-readable numeric record; do not require a JSON package.
+lines <- readLines(file.path(root, 'expected-results/appendix_primer.json'), warn=FALSE)
+number <- function(key) {
+  hit <- grep(paste0('"', key, '"[[:space:]]*:'), lines, value=TRUE)
+  stopifnot(length(hit)==1L)
+  as.numeric(sub('.*:[[:space:]]*([0-9.eE+-]+).*', '\\1', hit))
+}
+near <- function(a,b,tol=1e-12) stopifnot(abs(a-b)<tol)
+base <- 0.08; sensitivity <- 0.90; false_positive <- 0.15
+flag_b <- base*sensitivity; flag_not <- (1-base)*false_positive
+first <- flag_b/(flag_b+flag_not)
+second <- first*sensitivity/(first*sensitivity+(1-first)*false_positive)
+near(number('flagged_benefit_share'),flag_b)
+near(number('flagged_nonbenefit_share'),flag_not)
+near(number('flagged_total_share'),flag_b+flag_not)
+near(number('benefit_given_first_flag'),first)
+near(number('benefit_given_two_flags'),second)
+near(first,12/35); near(second,72/95)
+near(number('beta_density_at_0_625'),dbeta(.625,10,6))
+near(number('beta_density_at_0_5'),dbeta(.5,10,6))
+near(number('continuous_tail_above_half'),pbeta(.5,10,6,lower.tail=FALSE))
+near(number('posterior_mean'),10/16)
+near(number('posterior_mode'),9/14)
+near(number('posterior_sd'),sqrt(60/(256*17)))
+near(number('mle'),8/12)
+near(number('plug_in_proportion_se'),sqrt((8/12)*(4/12)/12))
+grid <- read.csv(file.path(root,'expected-results/prelude_grid.csv'))
+near(number('grid_mass_at_half'),grid$posterior[grid$theta==.5],1e-6)
+near(number('grid_tail_above_half'),sum(grid$posterior[grid$theta>.5]),2e-6)
+workshop <- read.csv(file.path(root,'expected-results/unit06_anchors.csv'))
+primary <- subset(workshop, case=='primary_tau5')
+stopifnot(nrow(primary)==8L)
+near(number('center'),primary$mu[1])
+near(number('w01_raw'),primary$raw[1]); near(number('w01_posterior'),primary$posterior[1])
+near(number('w08_raw'),primary$raw[8]); near(number('w08_posterior'),primary$posterior[8])
+cat('PRIMER_R_VERIFY_OK screening=exact grid=distinct beta=base-R workshops=existing\n')

@@ -1,0 +1,14 @@
+{
+  "spec_id": "unit07-help-seeking-routes-v1",
+  "data": "data/unit07_help_seeking_routes.csv",
+  "unit": "one fictional convenience volunteer with one seven-day binary self-report",
+  "groups": {"desk": {"n": 24, "reported": 8}, "poster": {"n": 12, "reported": 0}},
+  "target": "theta_desk minus theta_poster, route-specific reporting probabilities under a comparable regime",
+  "likelihood": "independent Bernoulli records within and across the two routes, with one constant probability per route",
+  "primary_prior": "independent Beta(1,1) for each route probability",
+  "sensitivity_prior": "independent Beta(2,2) for each route probability, specified as a comparison rather than chosen after results",
+  "summary": "posterior means, equal-tail 95 percent interval for difference, P(difference > 0), P(difference > 0.10)",
+  "checks": "prior probability of zero in twelve poster records; posterior probability of zero in another comparable twelve",
+  "design_limit": "nonrandom convenience recruitment; route contrast is associational, not an effect or a campus rate",
+  "computation": "exact beta updates and deterministic integration; no MCMC"
+}

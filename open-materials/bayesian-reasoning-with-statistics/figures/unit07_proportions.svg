@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Help-seeking proportions and route difference</title>
+<desc id="desc">For fictional convenience volunteers, desk has 8 reports among 24, poster zero among 12. Under independent Beta one one priors the desk posterior mean is 0.346 and poster mean 0.071; their credible intervals are shown separately. The desk minus poster probability difference has mean 0.275 and 95 percent credible interval 0.042 to 0.490. Under Beta two two priors the contrast interval is minus 0.017 to 0.456. Zero reports does not imply zero probability; intervals do not establish a route effect or a campus rate.</desc>
+<rect width="1200" height="620" fill="white"/>
+<text x="65" y="55" fill="#17354a" font-family="DejaVu Sans,Arial" font-size="31" font-weight="bold">A zero count still leaves uncertainty</text>
+<text x="65" y="90" fill="#455d69" font-family="DejaVu Sans,Arial" font-size="19">Fictional volunteers; exact Beta updates; intervals conditional on the stated priors</text>
+<text x="65" y="145" fill="#17354a" font-family="DejaVu Sans,Arial" font-size="22" font-weight="bold">Reporting probability by route · Beta(1,1)</text>
+<text x="65" y="374" fill="#17354a" font-family="DejaVu Sans,Arial" font-size="22" font-weight="bold">Desk minus poster probability · prior sensitivity</text>
+<line x1="330.0" y1="294" x2="1080.0" y2="294" stroke="#738d99" stroke-width="2"/>
+<line x1="330.0" y1="289" x2="330.0" y2="299" stroke="#738d99"/>
+<text x="330.0" y="323" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.0</text>
+<line x1="455.0" y1="289" x2="455.0" y2="299" stroke="#738d99"/>
+<text x="455.0" y="323" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.1</text>
+<line x1="580.0" y1="289" x2="580.0" y2="299" stroke="#738d99"/>
+<text x="580.0" y="323" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.2</text>
+<line x1="705.0" y1="289" x2="705.0" y2="299" stroke="#738d99"/>
+<text x="705.0" y="323" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.3</text>
+<line x1="830.0" y1="289" x2="830.0" y2="299" stroke="#738d99"/>
+<text x="830.0" y="323" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.4</text>
+<line x1="955.0" y1="289" x2="955.0" y2="299" stroke="#738d99"/>
+<text x="955.0" y="323" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.5</text>
+<line x1="1080.0" y1="289" x2="1080.0" y2="299" stroke="#738d99"/>
+<text x="1080.0" y="323" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.6</text>
+<text x="65" y="211" fill="#263f4d" font-family="DejaVu Sans,Arial" font-size="20">Desk 8/24</text>
+<line x1="554.6" y1="205" x2="998.8" y2="205" stroke="#0a6581" stroke-width="7"/>
+<circle cx="762.7" cy="205" r="9" fill="#0a6581" stroke="white" stroke-width="2"/>
+<text x="65" y="261" fill="#263f4d" font-family="DejaVu Sans,Arial" font-size="20">Poster 0/12</text>
+<line x1="332.4" y1="255" x2="638.8" y2="255" stroke="#a86122" stroke-width="7"/>
+<circle cx="419.3" cy="255" r="9" fill="#a86122" stroke="white" stroke-width="2"/>
+<line x1="410.0" y1="548" x2="1145.0" y2="548" stroke="#738d99" stroke-width="2"/>
+<line x1="410.0" y1="543" x2="410.0" y2="553" stroke="#738d99"/>
+<text x="410.0" y="577" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">-0.1</text>
+<line x1="515.0" y1="543" x2="515.0" y2="553" stroke="#738d99"/>
+<text x="515.0" y="577" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.0</text>
+<line x1="620.0" y1="543" x2="620.0" y2="553" stroke="#738d99"/>
+<text x="620.0" y="577" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.1</text>
+<line x1="725.0" y1="543" x2="725.0" y2="553" stroke="#738d99"/>
+<text x="725.0" y="577" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.2</text>
+<line x1="830.0" y1="543" x2="830.0" y2="553" stroke="#738d99"/>
+<text x="830.0" y="577" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.3</text>
+<line x1="935.0" y1="543" x2="935.0" y2="553" stroke="#738d99"/>
+<text x="935.0" y="577" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.4</text>
+<line x1="1040.0" y1="543" x2="1040.0" y2="553" stroke="#738d99"/>
+<text x="1040.0" y="577" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.5</text>
+<line x1="1145.0" y1="543" x2="1145.0" y2="553" stroke="#738d99"/>
+<text x="1145.0" y="577" text-anchor="middle" fill="#334d5b" font-family="DejaVu Sans,Arial" font-size="17">0.6</text>
+<line x1="515.0" y1="410" x2="515.0" y2="548" stroke="#9a4141" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="65" y="451" fill="#263f4d" font-family="DejaVu Sans,Arial" font-size="20">Beta(1,1)</text>
+<line x1="558.6" y1="445" x2="1029.3" y2="445" stroke="#0a6581" stroke-width="7"/>
+<circle cx="803.5" cy="445" r="9" fill="#0a6581" stroke="white" stroke-width="2"/>
+<text x="65" y="508" fill="#263f4d" font-family="DejaVu Sans,Arial" font-size="20">Beta(2,2)</text>
+<line x1="497.4" y1="502" x2="994.2" y2="502" stroke="#a86122" stroke-width="7"/>
+<circle cx="758.8" cy="502" r="9" fill="#a86122" stroke="white" stroke-width="2"/>
+<text x="1120" y="605" text-anchor="end" fill="#405966" font-family="DejaVu Sans,Arial" font-size="17">Dot: posterior mean · bar: central 95% credible interval</text>
+</svg>

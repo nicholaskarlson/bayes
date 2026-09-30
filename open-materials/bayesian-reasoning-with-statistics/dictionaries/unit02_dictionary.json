@@ -1,0 +1,8 @@
+{
+  "title": "Fictional help-seeking records, Unit 2",
+  "row_unit": "one fictional volunteer",
+  "fields": {
+    "participant_id": "unique synthetic identifier, H001\u2013H012",
+    "help_sought_within_7_days": "1 = reported one or more help-seeking contacts in seven days after the orientation; 0 = none reported"
+  }
+}

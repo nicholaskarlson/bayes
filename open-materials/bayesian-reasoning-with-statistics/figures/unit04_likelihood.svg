@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 900 480">
+<title id="title">Illustrative likelihood sensitivity for a two-point threshold</title>
+<desc id="desc">On all 64 pairs, probability the mean exceeds two is 0.636 for a Normal and 0.750 for a Student-t with four degrees of freedom and matched conditional variance. Omitting P059 yields 0.530 and 0.687; omitting P042 yields 0.732 and 0.806. Both comparison models share a Normal mean prior and conditional variance sixteen; these are not model probabilities.</desc>
+<rect width="900" height="480" fill="white"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#1b2733">
+<text x="60" y="48" font-size="24" font-weight="bold">How does the likelihood change the answer?</text>
+<text x="60" y="76" font-size="15">Same mean prior and conditional variance in both models; threshold μ &gt; 2 points</text>
+<text x="60" y="122" font-size="17">All 64 pairs</text>
+<text x="60" y="230" font-size="17">Omit P059 (+10.8)</text>
+<text x="60" y="338" font-size="17">Omit P042 (−6.5)</text>
+</g>
+<line x1="280" y1="158" x2="788" y2="158" stroke="#ccd4da" stroke-width="2"/>
+<line x1="280" y1="266" x2="788" y2="266" stroke="#ccd4da" stroke-width="2"/>
+<line x1="280" y1="374" x2="788" y2="374" stroke="#ccd4da" stroke-width="2"/>
+<circle cx="503.7" cy="136" r="8" fill="#266a96"/>
+<text x="517.7" y="141" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1b2733">0.636</text>
+<circle cx="640.3" cy="168" r="8" fill="#b65321"/>
+<text x="654.3" y="173" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1b2733">0.750</text>
+<circle cx="376.3" cy="244" r="8" fill="#266a96"/>
+<text x="390.3" y="249" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1b2733">0.530</text>
+<circle cx="564.7" cy="276" r="8" fill="#b65321"/>
+<text x="578.7" y="281" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1b2733">0.687</text>
+<circle cx="618.1" cy="352" r="8" fill="#266a96"/>
+<text x="632.1" y="357" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1b2733">0.732</text>
+<circle cx="706.9" cy="384" r="8" fill="#b65321"/>
+<text x="720.9" y="389" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1b2733">0.806</text>
+<line x1="280" y1="405" x2="788" y2="405" stroke="#697781" stroke-width="2"/>
+<line x1="340.0" y1="405" x2="340.0" y2="412" stroke="#697781"/>
+<text x="340.0" y="434" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#405260">0.5</text>
+<line x1="460.0" y1="405" x2="460.0" y2="412" stroke="#697781"/>
+<text x="460.0" y="434" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#405260">0.6</text>
+<line x1="580.0" y1="405" x2="580.0" y2="412" stroke="#697781"/>
+<text x="580.0" y="434" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#405260">0.7</text>
+<line x1="700.0" y1="405" x2="700.0" y2="412" stroke="#697781"/>
+<text x="700.0" y="434" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#405260">0.8</text>
+<line x1="760.0" y1="405" x2="760.0" y2="412" stroke="#697781"/>
+<text x="760.0" y="434" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#405260">0.85</text>
+<circle cx="80" cy="455" r="6" fill="#266a96"/>
+<text x="94" y="460" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1b2733">Normal</text>
+<circle cx="200" cy="455" r="6" fill="#b65321"/>
+<text x="214" y="460" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1b2733">Student-t(4)</text>
+<text x="440" y="460" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#485866">Illustrative post hoc sensitivity; no causal claim.</text>
+</svg>

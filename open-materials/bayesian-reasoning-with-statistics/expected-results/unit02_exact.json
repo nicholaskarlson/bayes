@@ -1,0 +1,50 @@
+{
+  "computation": "exact; no MCMC",
+  "n": 12,
+  "posterior": [
+    10,
+    6
+  ],
+  "posterior_equal_tail_95": [
+    0.38380373254115413,
+    0.8366356761404865
+  ],
+  "posterior_mean": 0.625,
+  "posterior_predictive_ge_8_of_12": 0.5192982456140348,
+  "posterior_probability_above_half": 0.84912109375,
+  "prior": [
+    2,
+    2
+  ],
+  "prior_predictive_ge_10_of_12": 0.15384615384615385,
+  "prior_predictive_outer_0_to_2_or_10_to_12": 0.3076923076923076,
+  "sample_proportion": 0.6666666666666666,
+  "sensitivity": [
+    {
+      "mean": 0.6428571428571429,
+      "posterior": [
+        9,
+        5
+      ],
+      "prior": [
+        1,
+        1
+      ],
+      "probability_above_half": 0.8665771484375
+    },
+    {
+      "mean": 0.5714285714285714,
+      "posterior": [
+        16,
+        12
+      ],
+      "prior": [
+        8,
+        8
+      ],
+      "probability_above_half": 0.7789658308029175
+    }
+  ],
+  "spec_id": "unit02-beta-binomial-v1",
+  "y": 8
+}

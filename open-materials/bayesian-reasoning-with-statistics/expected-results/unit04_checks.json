@@ -1,0 +1,59 @@
+{
+  "individual_predictive_tail": {
+    "cutoff_points": 8.0,
+    "expected_count_for_64": 5.595270983614774,
+    "joint_tail_count_interval": null,
+    "probability": 0.08742610911898084
+  },
+  "interpretation": "Model-dependent replicated-data checks, not ordinary p values; expected tail count is not a joint count check; omission is influence, not correction for selection or measurement.",
+  "leave_one_out": {
+    "full_p_mu_gt_two": 0.5525218448850073,
+    "max": {
+      "omitted_id": "P042",
+      "p_mu_gt_two": 0.6531579537420756
+    },
+    "min": {
+      "omitted_id": "P059",
+      "p_mu_gt_two": 0.4480793828512776
+    },
+    "pairs_examined": 64
+  },
+  "observed": {
+    "absolute_tail_count": 5,
+    "mean": 2.1953125,
+    "n": 64,
+    "sample_variance": 16.967120535714287
+  },
+  "posterior_replicated_cohort": {
+    "mean_95": [
+      0.6357932157988917,
+      3.496559725377579
+    ],
+    "mean_cdf_at_observed": 0.5711868389113126,
+    "sample_variance_95": [
+      10.40288348283484,
+      27.471356076243463
+    ],
+    "sample_variance_cdf_at_observed": 0.5025762097246395
+  },
+  "prior_replicated_cohort": {
+    "mean_95": [
+      -5.148457984244879,
+      5.148457984244877
+    ],
+    "mean_cdf_at_observed": 0.8315094719826004,
+    "sample_variance_95": [
+      6.36985051351154,
+      82.56238556435434
+    ],
+    "sample_variance_cdf_at_observed": 0.4448266441693771
+  },
+  "schema_version": "unit04-exact-checks-1",
+  "source": {
+    "artifact_commit": null,
+    "base_commit": "b958f9e21194d9eb80e79608a5fee10f858e1aa4",
+    "check_plan_sha256": "0d93b59904b6b8ee3249dd5de6db9b4db9ec3c5eab15bd92972674ac35b82ef5",
+    "csv_sha256": "113afe4664438b315a327631b62550005a717e328ced9ccca6dfd0fe03ab5056",
+    "model_spec_sha256": "175c523dfa9524b17cec080cd5c8ac79797b73ca0008f0beed5a7384c40d15dc"
+  }
+}

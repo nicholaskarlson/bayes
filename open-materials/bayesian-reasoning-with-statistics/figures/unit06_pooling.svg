@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="870" viewBox="0 0 1500 870" role="img" aria-labelledby="title desc">
+<title id="title">Eight workshop means and partial pooling</title>
+<desc id="desc">Workshop W01 has four students and raw mean 63.625; its exact posterior mean is 60.272 with interval 53.964 to 66.579. Workshop W08 has twenty students and raw mean 59.345; posterior mean 58.856 with interval 55.525 to 62.186. Other group means lie between about 49.5 and 58.1. Raw crosses, posterior circles and 95 percent credible intervals share a score-point axis. A dashed vertical line marks pooled mean 55.796. Intervals concern latent group means under fixed scales; no workshop effects are identified.</desc>
+<rect width="1500" height="820" fill="#ffffff"/>
+<text x="70" y="64" fill="#1c3040" font-family="DejaVu Sans,Arial,sans-serif" font-size="42" font-weight="700">Group means with partial pooling</text>
+<text x="70" y="98" fill="#475e6b" font-family="DejaVu Sans,Arial,sans-serif" font-size="27">Fictional confidence scores, 0–100; each student measured once</text>
+<line x1="427.0" y1="145" x2="427.0" y2="700" stroke="#e0e9ec" stroke-width="2"/>
+<text x="427.0" y="740" text-anchor="middle" font-size="27" fill="#304653" font-family="DejaVu Sans,Arial,sans-serif">45</text>
+<line x1="607.0" y1="145" x2="607.0" y2="700" stroke="#e0e9ec" stroke-width="2"/>
+<text x="607.0" y="740" text-anchor="middle" font-size="27" fill="#304653" font-family="DejaVu Sans,Arial,sans-serif">50</text>
+<line x1="787.0" y1="145" x2="787.0" y2="700" stroke="#e0e9ec" stroke-width="2"/>
+<text x="787.0" y="740" text-anchor="middle" font-size="27" fill="#304653" font-family="DejaVu Sans,Arial,sans-serif">55</text>
+<line x1="967.0" y1="145" x2="967.0" y2="700" stroke="#e0e9ec" stroke-width="2"/>
+<text x="967.0" y="740" text-anchor="middle" font-size="27" fill="#304653" font-family="DejaVu Sans,Arial,sans-serif">60</text>
+<line x1="1147.0" y1="145" x2="1147.0" y2="700" stroke="#e0e9ec" stroke-width="2"/>
+<text x="1147.0" y="740" text-anchor="middle" font-size="27" fill="#304653" font-family="DejaVu Sans,Arial,sans-serif">65</text>
+<line x1="1327.0" y1="145" x2="1327.0" y2="700" stroke="#e0e9ec" stroke-width="2"/>
+<text x="1327.0" y="740" text-anchor="middle" font-size="27" fill="#304653" font-family="DejaVu Sans,Arial,sans-serif">70</text>
+<line x1="815.7" y1="145" x2="815.7" y2="700" stroke="#af651e" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="823.7" y="158" fill="#874e16" font-size="24" font-family="DejaVu Sans,Arial,sans-serif">Pooled 55.796</text>
+<line x1="68" y1="238" x2="1430" y2="238" stroke="#eef2f3"/>
+<text x="75" y="212" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">W01  (n=4)</text>
+<line x1="749.7" y1="205" x2="1203.8" y2="205" stroke="#087e84" stroke-width="6"/>
+<line x1="749.7" y1="195" x2="749.7" y2="215" stroke="#087e84" stroke-width="3"/>
+<line x1="1203.8" y1="195" x2="1203.8" y2="215" stroke="#087e84" stroke-width="3"/>
+<line x1="1089.5" y1="197" x2="1105.5" y2="213" stroke="#656d76" stroke-width="3"/>
+<line x1="1089.5" y1="213" x2="1105.5" y2="197" stroke="#656d76" stroke-width="3"/>
+<circle cx="976.8" cy="205" r="9" fill="#0a4b71" stroke="white" stroke-width="2"/>
+<text x="1470" y="212" text-anchor="end" fill="#344955" font-size="27" font-family="DejaVu Sans,Arial,sans-serif">63.6 → 60.3</text>
+<line x1="68" y1="304" x2="1430" y2="304" stroke="#eef2f3"/>
+<text x="75" y="278" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">W02  (n=5)</text>
+<line x1="463.4" y1="271" x2="884.8" y2="271" stroke="#087e84" stroke-width="6"/>
+<line x1="463.4" y1="261" x2="463.4" y2="281" stroke="#087e84" stroke-width="3"/>
+<line x1="884.8" y1="261" x2="884.8" y2="281" stroke="#087e84" stroke-width="3"/>
+<line x1="607.6" y1="263" x2="623.6" y2="279" stroke="#656d76" stroke-width="3"/>
+<line x1="607.6" y1="279" x2="623.6" y2="263" stroke="#656d76" stroke-width="3"/>
+<circle cx="674.1" cy="271" r="9" fill="#0a4b71" stroke="white" stroke-width="2"/>
+<text x="1470" y="278" text-anchor="end" fill="#344955" font-size="27" font-family="DejaVu Sans,Arial,sans-serif">50.2 → 51.9</text>
+<line x1="68" y1="370" x2="1430" y2="370" stroke="#eef2f3"/>
+<text x="75" y="344" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">W03  (n=6)</text>
+<line x1="451.1" y1="337" x2="846.0" y2="337" stroke="#087e84" stroke-width="6"/>
+<line x1="451.1" y1="327" x2="451.1" y2="347" stroke="#087e84" stroke-width="3"/>
+<line x1="846.0" y1="327" x2="846.0" y2="347" stroke="#087e84" stroke-width="3"/>
+<line x1="581.0" y1="329" x2="597.0" y2="345" stroke="#656d76" stroke-width="3"/>
+<line x1="581.0" y1="345" x2="597.0" y2="329" stroke="#656d76" stroke-width="3"/>
+<circle cx="648.6" cy="337" r="9" fill="#0a4b71" stroke="white" stroke-width="2"/>
+<text x="1470" y="344" text-anchor="end" fill="#344955" font-size="27" font-family="DejaVu Sans,Arial,sans-serif">49.5 → 51.2</text>
+<line x1="68" y1="436" x2="1430" y2="436" stroke="#eef2f3"/>
+<text x="75" y="410" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">W04  (n=8)</text>
+<line x1="466.1" y1="403" x2="820.1" y2="403" stroke="#087e84" stroke-width="6"/>
+<line x1="466.1" y1="393" x2="466.1" y2="413" stroke="#087e84" stroke-width="3"/>
+<line x1="820.1" y1="393" x2="820.1" y2="413" stroke="#087e84" stroke-width="3"/>
+<line x1="588.6" y1="395" x2="604.6" y2="411" stroke="#656d76" stroke-width="3"/>
+<line x1="588.6" y1="411" x2="604.6" y2="395" stroke="#656d76" stroke-width="3"/>
+<circle cx="643.1" cy="403" r="9" fill="#0a4b71" stroke="white" stroke-width="2"/>
+<text x="1470" y="410" text-anchor="end" fill="#344955" font-size="27" font-family="DejaVu Sans,Arial,sans-serif">49.7 → 51.0</text>
+<line x1="68" y1="502" x2="1430" y2="502" stroke="#eef2f3"/>
+<text x="75" y="476" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">W05  (n=10)</text>
+<line x1="573.8" y1="469" x2="897.5" y2="469" stroke="#087e84" stroke-width="6"/>
+<line x1="573.8" y1="459" x2="573.8" y2="479" stroke="#087e84" stroke-width="3"/>
+<line x1="897.5" y1="459" x2="897.5" y2="479" stroke="#087e84" stroke-width="3"/>
+<line x1="714.2" y1="461" x2="730.2" y2="477" stroke="#656d76" stroke-width="3"/>
+<line x1="714.2" y1="477" x2="730.2" y2="461" stroke="#656d76" stroke-width="3"/>
+<circle cx="735.6" cy="469" r="9" fill="#0a4b71" stroke="white" stroke-width="2"/>
+<text x="1470" y="476" text-anchor="end" fill="#344955" font-size="27" font-family="DejaVu Sans,Arial,sans-serif">53.2 → 53.6</text>
+<line x1="68" y1="568" x2="1430" y2="568" stroke="#eef2f3"/>
+<text x="75" y="542" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">W06  (n=12)</text>
+<line x1="669.1" y1="535" x2="969.1" y2="535" stroke="#087e84" stroke-width="6"/>
+<line x1="669.1" y1="525" x2="669.1" y2="545" stroke="#087e84" stroke-width="3"/>
+<line x1="969.1" y1="525" x2="969.1" y2="545" stroke="#087e84" stroke-width="3"/>
+<line x1="817.7" y1="527" x2="833.7" y2="543" stroke="#656d76" stroke-width="3"/>
+<line x1="817.7" y1="543" x2="833.7" y2="527" stroke="#656d76" stroke-width="3"/>
+<circle cx="819.1" cy="535" r="9" fill="#0a4b71" stroke="white" stroke-width="2"/>
+<text x="1470" y="542" text-anchor="end" fill="#344955" font-size="27" font-family="DejaVu Sans,Arial,sans-serif">56.1 → 55.9</text>
+<line x1="68" y1="634" x2="1430" y2="634" stroke="#eef2f3"/>
+<text x="75" y="608" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">W07  (n=15)</text>
+<line x1="746.3" y1="601" x2="1018.7" y2="601" stroke="#087e84" stroke-width="6"/>
+<line x1="746.3" y1="591" x2="746.3" y2="611" stroke="#087e84" stroke-width="3"/>
+<line x1="1018.7" y1="591" x2="1018.7" y2="611" stroke="#087e84" stroke-width="3"/>
+<line x1="890.6" y1="593" x2="906.6" y2="609" stroke="#656d76" stroke-width="3"/>
+<line x1="890.6" y1="609" x2="906.6" y2="593" stroke="#656d76" stroke-width="3"/>
+<circle cx="882.5" cy="601" r="9" fill="#0a4b71" stroke="white" stroke-width="2"/>
+<text x="1470" y="608" text-anchor="end" fill="#344955" font-size="27" font-family="DejaVu Sans,Arial,sans-serif">58.1 → 57.7</text>
+<line x1="68" y1="700" x2="1430" y2="700" stroke="#eef2f3"/>
+<text x="75" y="674" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">W08  (n=20)</text>
+<line x1="805.9" y1="667" x2="1045.7" y2="667" stroke="#087e84" stroke-width="6"/>
+<line x1="805.9" y1="657" x2="805.9" y2="677" stroke="#087e84" stroke-width="3"/>
+<line x1="1045.7" y1="657" x2="1045.7" y2="677" stroke="#087e84" stroke-width="3"/>
+<line x1="935.4" y1="659" x2="951.4" y2="675" stroke="#656d76" stroke-width="3"/>
+<line x1="935.4" y1="675" x2="951.4" y2="659" stroke="#656d76" stroke-width="3"/>
+<circle cx="925.8" cy="667" r="9" fill="#0a4b71" stroke="white" stroke-width="2"/>
+<text x="1470" y="674" text-anchor="end" fill="#344955" font-size="27" font-family="DejaVu Sans,Arial,sans-serif">59.3 → 58.9</text>
+<text x="820" y="780" text-anchor="middle" fill="#243c4b" font-size="30" font-family="DejaVu Sans,Arial,sans-serif">Mean confidence score (points)</text>
+<text x="75" y="821" fill="#4b626c" font-size="24" font-family="DejaVu Sans,Arial,sans-serif">× Raw mean     ● Posterior mean     Teal bar: 95% credible interval</text>
+<text x="75" y="851" fill="#874e16" font-size="24" font-family="DejaVu Sans,Arial,sans-serif">Dashed line: student-weighted pooled raw mean</text>
+</svg>

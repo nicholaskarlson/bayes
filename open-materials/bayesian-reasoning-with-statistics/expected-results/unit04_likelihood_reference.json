@@ -1,0 +1,117 @@
+{
+  "baseline_normal_inverse_gamma": {
+    "p_mu_gt_2": 0.5525218448850073
+  },
+  "cases": {
+    "all": {
+      "n": 64,
+      "normal_fixed": {
+        "ci95": [
+          1.198458204628512,
+          3.1486952607180223
+        ],
+        "p_mu_gt_2": 0.6364121446495584,
+        "posterior_mean": 2.173576732673267
+      },
+      "omitted_participant": null,
+      "student_t4_equal_variance": {
+        "ci95": [
+          1.40083593737605,
+          3.213633599691689
+        ],
+        "p_mu_gt_2": 0.7502636397173124,
+        "posterior_mean": 2.310992514128674,
+        "quadrature": {
+          "bounds": [
+            -20,
+            20
+          ],
+          "enlarged_bounds": [
+            -30,
+            30
+          ],
+          "mass_fraction_outside_bounds": 0.0,
+          "mode": 2.3150076437585305,
+          "p_threshold_enlarged": 0.7502636397173126
+        }
+      }
+    },
+    "omit_P042": {
+      "n": 63,
+      "normal_fixed": {
+        "ci95": [
+          1.3271181334285673,
+          3.2926178816562843
+        ],
+        "p_mu_gt_2": 0.7317092158826464,
+        "posterior_mean": 2.309868007542426
+      },
+      "omitted_participant": "P042",
+      "student_t4_equal_variance": {
+        "ci95": [
+          1.4899079471865948,
+          3.2964159564812965
+        ],
+        "p_mu_gt_2": 0.805714690030193,
+        "posterior_mean": 2.3963636806058903,
+        "quadrature": {
+          "bounds": [
+            -20,
+            20
+          ],
+          "enlarged_bounds": [
+            -30,
+            30
+          ],
+          "mass_fraction_outside_bounds": 0.0,
+          "mode": 2.3997888514068118,
+          "p_threshold_enlarged": 0.8057146900301911
+        }
+      }
+    },
+    "omit_P059": {
+      "n": 63,
+      "normal_fixed": {
+        "ci95": [
+          1.0552765243776556,
+          3.0207762726053726
+        ],
+        "p_mu_gt_2": 0.5302262456567544,
+        "posterior_mean": 2.0380263984915143
+      },
+      "omitted_participant": "P059",
+      "student_t4_equal_variance": {
+        "ci95": [
+          1.3137097533439719,
+          3.1260011529836578
+        ],
+        "p_mu_gt_2": 0.6872788060359545,
+        "posterior_mean": 2.224098252840435,
+        "quadrature": {
+          "bounds": [
+            -20,
+            20
+          ],
+          "enlarged_bounds": [
+            -30,
+            30
+          ],
+          "mass_fraction_outside_bounds": 0.0,
+          "mode": 2.2286273694664835,
+          "p_threshold_enlarged": 0.6872788060359563
+        }
+      }
+    }
+  },
+  "interpretation": "Synthetic cohort, post hoc model sensitivity. Both fixed dispersion parameters are illustrative, not known in a real study. These are conditional comparisons, not model probabilities, Bayes factors, predictive validation, or causal effects.",
+  "method": "normal_exact_and_student_t_adaptive_quadrature_not_mcmc",
+  "model_note": "Both sensitivity models use mu ~ Normal(0,5^2) and conditional variance 16: Normal SD 4; Student-t(4) scale sqrt(8). Baseline NIG estimates unknown variance and has a different prior, so contrasting it with either side model does not isolate the likelihood.",
+  "schema_version": "unit04-likelihood-reference-1",
+  "source": {
+    "artifact_commit": null,
+    "baseline_exact_sha256": "d011fe57b74be8a4b99755064154ab6d78cefcb077f912ded4b41f32e2c91695",
+    "csv_sha256": "113afe4664438b315a327631b62550005a717e328ced9ccca6dfd0fe03ab5056",
+    "plan_sha256": "c7c4f9795765182f6d08abaf7a9b18dc179d9a8d007f39436caaa4e5b4f36f80",
+    "source_base_commit": "9edadbe5385a8012658accc9b0c00f74a4debe30"
+  }
+}

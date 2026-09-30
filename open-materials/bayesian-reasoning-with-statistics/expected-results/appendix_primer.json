@@ -1,0 +1,39 @@
+{
+  "model_scope": "fictional screening illustration and existing fictional Unit 2 and Unit 6 records; arithmetic conditional on declared assumptions",
+  "screening": {
+    "base_rate": 0.08,
+    "sensitivity": 0.9,
+    "false_positive_rate": 0.15,
+    "flagged_benefit_share": 0.072,
+    "flagged_nonbenefit_share": 0.138,
+    "flagged_total_share": 0.21,
+    "benefit_given_first_flag_fraction": "12/35",
+    "benefit_given_first_flag": 0.34285714285714286,
+    "benefit_given_two_flags_fraction": "72/95",
+    "benefit_given_two_flags": 0.7578947368421053,
+    "second_flag_assumption": "conditional independence of flags within benefit groups"
+  },
+  "count_model": {
+    "n": 12,
+    "y": 8,
+    "prior_shapes": [2, 2],
+    "posterior_shapes": [10, 6],
+    "grid_mass_at_half": 0.183303,
+    "grid_tail_above_half": 0.745038,
+    "continuous_tail_above_half": 0.84912109375,
+    "beta_density_at_0_625": 3.2406477501467643,
+    "beta_density_at_0_5": 1.8328857421875,
+    "posterior_mean": 0.625,
+    "posterior_mode": 0.6428571428571429,
+    "posterior_sd": 0.11741705457846553,
+    "mle": 0.6666666666666666,
+    "plug_in_proportion_se": 0.13608276348795434
+  },
+  "workshop_primary_tau5": {
+    "center": 55.032024411887804,
+    "w01_raw": 63.625,
+    "w01_posterior": 60.27164367293183,
+    "w08_raw": 59.345,
+    "w08_posterior": 58.85558433042699
+  }
+}

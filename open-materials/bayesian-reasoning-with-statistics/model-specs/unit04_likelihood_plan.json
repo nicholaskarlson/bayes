@@ -1,0 +1,15 @@
+{
+  "schema_version": "unit04-likelihood-sensitivity-1",
+  "target": "mean location of paired after-minus-before differences",
+  "data_rows": 64,
+  "prior": {"mu_distribution": "Normal", "mu_mean_points": 0, "mu_sd_points": 5},
+  "matched_likelihoods": [
+    {"id": "normal_fixed", "family": "Normal", "known_scale_points": 4},
+    {"id": "student_t4_equal_variance", "family": "Student-t", "degrees_of_freedom": 4, "known_scale_points": 2.8284271247461903}
+  ],
+  "two_point_threshold": 2,
+  "cases": {"all": null, "omit_P059": "P059", "omit_P042": "P042"},
+  "integration_interval_points": [-20, 20],
+  "enlarged_interval_points": [-30, 30],
+  "interpretation": "Illustrative post hoc likelihood sensitivity under a common conditional variance of 16 points squared and common proper prior. Normal SD 4; Student-t(4) scale sqrt(8). The original normal-inverse-gamma model differs in prior and variance treatment; its contrast is not an isolated likelihood effect. Numerical quadrature, not MCMC."
+}

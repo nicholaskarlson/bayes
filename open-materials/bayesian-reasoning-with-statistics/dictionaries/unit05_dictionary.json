@@ -1,0 +1,12 @@
+{
+  "title": "Fictional belonging and study habits survey for Unit 5",
+  "row_unit": "one fictional student volunteer, surveyed once",
+  "fields": {
+    "participant_id": "B001–B072, unique synthetic identifier; not a real student",
+    "study_hours_per_week": "self-reported hours of study in the preceding week, one decimal, 0–168 theoretically; realized range 1.8–8.5",
+    "long_commute": "1 = fictional commute of at least 45 minutes, 0 = shorter; not randomized",
+    "belonging_score": "fictional bounded 0–100 self-report score recorded once; larger = stronger reported belonging"
+  },
+  "missing": "no blank cells in this teaching file",
+  "scope": "cross-sectional convenience volunteers; no temporal direction established"
+}

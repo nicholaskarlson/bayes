@@ -1,0 +1,11 @@
+parameter,value
+mu_prior_mean_points,0
+mu_prior_sd_points,5
+normal_sd_points,4
+student_t_scale_points,2.8284271247461903
+student_degrees_of_freedom,4
+two_point_threshold,2
+integration_lower,-20
+integration_upper,20
+enlarged_lower,-30
+enlarged_upper,30

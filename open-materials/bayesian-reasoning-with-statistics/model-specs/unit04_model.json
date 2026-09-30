@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "case": "fictional 14-day reflection-practice attention ratings",
+  "observation_unit": "one fictional participant with a before and an after score",
+  "contrast": "after minus before",
+  "target": "mean paired change in the model for this fictional recruited cohort",
+  "design": "uncontrolled before-after convenience cohort; no randomized comparison",
+  "likelihood": "d_i independent Normal(mu, variance) conditional on mu and variance",
+  "prior": {
+    "variance": "InverseGamma(shape=a0, scale=b0), density proportional to v^(-a0-1) exp(-b0/v)",
+    "mu_given_variance": "Normal(m0, variance/kappa0)",
+    "m0": 0.0,
+    "kappa0": 4.0,
+    "a0": 3.0,
+    "b0": 50.0
+  },
+  "sensitivity_kappa0": [0.5, 4.0, 16.0],
+  "illustrative_meaningful_change_points": 2.0,
+  "illustrative_negligible_change_interval_points": [-1.0, 1.0],
+  "reporting_decimals": 3,
+  "causal_claim_boundary": "A before-after change cannot identify the effect of reflection practice"
+}

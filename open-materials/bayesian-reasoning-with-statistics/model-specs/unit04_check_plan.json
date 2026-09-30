@@ -1,0 +1,10 @@
+{
+  "schema_version": "unit04-check-plan-1",
+  "model_spec": "unit04_model.json",
+  "replicated_cohort_size": 64,
+  "replicated_statistics": ["sample_mean", "unbiased_sample_variance"],
+  "absolute_tail_cutoff_points": 8,
+  "tail_rule": "abs(difference)>8",
+  "cutoff_rationale": "Illustrative eight-point individual change for a model-criticism exercise; chosen for this audit, not a preregistered or validated meaningful difference",
+  "scope": "Exact marginal checks for a new 64-pair cohort under the normal-inverse-gamma model; marginal expected tail count, not a joint count distribution; leave-one-out recomputes the model after omitting each pair"
+}

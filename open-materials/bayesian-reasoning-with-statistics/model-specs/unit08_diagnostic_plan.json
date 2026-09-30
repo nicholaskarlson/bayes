@@ -1,0 +1,11 @@
+{
+  "schema_version": "unit08-diagnostic-reader-v1",
+  "cases": ["unit07_help_seeking_routes", "unit04_reflection_attention_paired"],
+  "unit07_check": "Prior predictive probability of zero among 12 poster recruits under independently specified Beta(2,2), compared with Beta(1,1); exact beta-binomial calculation. This is a model check, not a p value or held-out prediction.",
+  "unit04_comparison": "Posterior P(mu>2) for all 64, omit P059, and omit P042, with identical Normal(0,5^2) prior and conditional variance 16: Normal SD 4 versus Student-t4 scale sqrt(8). Post hoc sensitivity, not model probabilities.",
+  "unit04_original": "The original normal-inverse-gamma model also has leave-one-out checks; its prior and variance treatment differ from the matched-likelihood pair and must not be treated as an isolated likelihood comparison.",
+  "illustrative_threshold": 0.6,
+  "decision_status": "Classroom toy threshold only; no validated benefit or intervention decision.",
+  "computational_status": "Exact arithmetic, analytic Normal update and pre-existing independently audited quadrature anchors. No MCMC or new sampler. A hypothetical chain warning requires diagnosis before reporting.",
+  "scope": "Fictional convenience volunteers and fictional before/after ratings; descriptive/associational only. No causal or campus-wide claim."
+}

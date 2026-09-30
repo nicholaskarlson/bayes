@@ -1,0 +1,99 @@
+{
+  "analytic_controls": {
+    "posterior_replicated_mean": 2.0661764705882355,
+    "posterior_replicated_variance_mean": 17.456944204152247,
+    "prior_replicated_mean": 0.0,
+    "prior_replicated_variance_mean": 25.0
+  },
+  "engine": {
+    "kind": "direct_conjugate_predictive_draws_not_mcmc",
+    "numpy_version": "2.3.5",
+    "posterior_seed": 20260929,
+    "prior_seed": 20260928,
+    "replicates_per_distribution": 30000
+  },
+  "interpretation": "Checks reuse the data and are model-dependent. Tail count and skewness are joint replicated statistics; Monte Carlo error is reported. No MCMC convergence or causal claim.",
+  "observed": {
+    "count_abs_gt_8": 5,
+    "count_negative": 20,
+    "mean": 2.1953125,
+    "moment_skewness": -0.07432405875143862,
+    "sample_variance": 16.967120535714283
+  },
+  "posterior": {
+    "mean_negative_count": 19.861366666666665,
+    "mean_of_replicated_means": 2.0619579823391585,
+    "mean_of_replicated_sample_variances": 17.43854261882793,
+    "mean_tail_count": 5.5879,
+    "moment_skewness_95": [
+      -0.5794302966265907,
+      0.5817521075479519
+    ],
+    "p_abs_skew_ge_observed": {
+      "estimate": 0.7864,
+      "mcse": 0.0023662561146249577
+    },
+    "p_any_abs_change_gt_15": {
+      "estimate": 0.08043333333333333,
+      "mcse": 0.0015701784635535564
+    },
+    "p_negative_count_ge_observed": {
+      "estimate": 0.5181666666666667,
+      "mcse": 0.0028848453004290207
+    },
+    "p_tail_count_ge_observed": {
+      "estimate": 0.6112666666666666,
+      "mcse": 0.0028143662927255274
+    },
+    "se_mean_negative_count": 0.026996631240657026,
+    "se_mean_of_replicated_means": 0.004200303131636651,
+    "se_mean_of_replicated_sample_variances": 0.02547513220543738,
+    "se_mean_tail_count": 0.016394859338029012,
+    "tail_count_95": [
+      1,
+      12
+    ]
+  },
+  "prior": {
+    "mean_negative_count": 32.1057,
+    "mean_of_replicated_means": -0.025490738227364772,
+    "mean_of_replicated_sample_variances": 25.085352242347692,
+    "mean_tail_count": 8.369366666666666,
+    "moment_skewness_95": [
+      -0.5778167141325191,
+      0.5793773876763303
+    ],
+    "p_abs_skew_ge_observed": {
+      "estimate": 0.7901,
+      "mcse": 0.0023511840279598134
+    },
+    "p_any_abs_change_gt_15": {
+      "estimate": 0.2778333333333333,
+      "mcse": 0.0025861294903273386
+    },
+    "p_negative_count_ge_observed": {
+      "estimate": 0.8385,
+      "mcse": 0.0021245999623458528
+    },
+    "p_tail_count_ge_observed": {
+      "estimate": 0.5802,
+      "mcse": 0.0028493739663301484
+    },
+    "se_mean_negative_count": 0.06933915090044672,
+    "se_mean_of_replicated_means": 0.014803542285578165,
+    "se_mean_of_replicated_sample_variances": 0.13931953002310968,
+    "se_mean_tail_count": 0.04767641204777892,
+    "tail_count_95": [
+      0,
+      30
+    ]
+  },
+  "schema_version": "unit04-joint-reference-1",
+  "source": {
+    "artifact_commit": null,
+    "csv_sha256": "113afe4664438b315a327631b62550005a717e328ced9ccca6dfd0fe03ab5056",
+    "model_spec_sha256": "175c523dfa9524b17cec080cd5c8ac79797b73ca0008f0beed5a7384c40d15dc",
+    "plan_sha256": "3f9de00f61b5940b7e1f16d9845fa48b96e6883fef4af996c12f3ae6de02d316",
+    "source_base_commit": "d28810c0e33645d4991cbe575ae8de16a46b8947"
+  }
+}

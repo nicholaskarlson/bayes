@@ -1,0 +1,30 @@
+{
+  "note": "Student-t and NIG values are sourced from existing independently audited Unit 4 anchors; Normal and beta-binomial values are recalculated from raw data. No new quadrature or MCMC.",
+  "schema": "unit08-reader-diagnostics-v1",
+  "unit04_matched_p_mu_gt_two": {
+    "all": {
+      "normal_fixed": 0.6364121446495584,
+      "student_t4_equal_variance": 0.7502636397173124
+    },
+    "omit_P042": {
+      "normal_fixed": 0.7317092158826463,
+      "student_t4_equal_variance": 0.805714690030193
+    },
+    "omit_P059": {
+      "normal_fixed": 0.5302262456567546,
+      "student_t4_equal_variance": 0.6872788060359545
+    }
+  },
+  "unit04_original_nig_p_mu_gt_two": {
+    "all": 0.5525218448850073,
+    "omit_P042": 0.6531579537420756,
+    "omit_P059": 0.4480793828512776
+  },
+  "unit07": {
+    "p_desk_minus_poster_gt_zero": 0.987467306015693,
+    "poster_n": 12,
+    "poster_reports": 0,
+    "prior_predictive_zero_beta_1_1": 0.07692307692307696,
+    "prior_predictive_zero_beta_2_2": 0.02857142857142854
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "computation": "exact; no MCMC",
+  "n": 12,
+  "observed_proportion": 0.6666666666666666,
+  "posterior": [
+    10,
+    6
+  ],
+  "posterior_equal_tail_95": [
+    0.38380373254115413,
+    0.8366356761404865
+  ],
+  "posterior_mean": 0.625,
+  "primary_decision": {
+    "expected_action_utility": 0.19356889917030418,
+    "higher_expected_utility": "action",
+    "posterior": [
+      10,
+      6
+    ],
+    "prior": [
+      2,
+      2
+    ],
+    "probability_above_0_6": 0.5967844495851521
+  },
+  "sensitivity": [
+    {
+      "expected_action_utility": 0.29391630745600006,
+      "higher_expected_utility": "action",
+      "posterior": [
+        9,
+        5
+      ],
+      "prior": [
+        1,
+        1
+      ],
+      "probability_above_0_6": 0.646958153728
+    },
+    {
+      "expected_action_utility": -0.2254645685860242,
+      "higher_expected_utility": "no_action",
+      "posterior": [
+        16,
+        12
+      ],
+      "prior": [
+        8,
+        8
+      ],
+      "probability_above_0_6": 0.38726771570698787
+    }
+  ],
+  "spec_id": "unit03-intervals-decision-v1",
+  "wilson_95": [
+    0.39062208887279953,
+    0.8618799089087867
+  ],
+  "y": 8
+}

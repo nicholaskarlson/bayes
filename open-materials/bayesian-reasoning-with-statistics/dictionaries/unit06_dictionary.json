@@ -1,0 +1,15 @@
+{
+  "dataset": "unit06_workshop_confidence.csv",
+  "fictional": true,
+  "rows": 80,
+  "group_sizes": {"W01": 4, "W02": 5, "W03": 6, "W04": 8, "W05": 10, "W06": 12, "W07": 15, "W08": 20},
+  "observation_unit": "one volunteer with one post-workshop self-report",
+  "group_unit": "a fictional workshop; its participants share a setting, not an assigned treatment contrast",
+  "variables": {
+    "student_id": "unique synthetic identifier Wxx-Syy, one per row",
+    "workshop_id": "fictional workshop W01 through W08",
+    "confidence_score": "0 to 100 self-reported confidence score in points; generated to one decimal; no before score"
+  },
+  "missing": "none",
+  "assignment": "none; workshops and volunteers are not sampled at random"
+}

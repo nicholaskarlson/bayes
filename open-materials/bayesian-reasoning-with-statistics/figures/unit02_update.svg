@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">Unit 2 beta-binomial update</title>
+<desc id="desc">A Beta two two prior combines with eight binary successes and four failures to produce a Beta ten six posterior. The sample proportion is 0.667, while the posterior mean is 0.625.</desc>
+<rect width="1200" height="380" fill="#ffffff"/>
+<text x="42" y="48" fill="#162f49" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold">A probability model, updated by a count</text>
+<g font-family="DejaVu Sans, sans-serif" fill="#173450">
+<rect x="42" y="90" width="298" height="150" rx="12" fill="#eef3f8" stroke="#67819b" stroke-width="3"/>
+<text x="66" y="133" font-size="23" font-weight="bold">Before the count</text><text x="66" y="180" font-size="31">Beta(2, 2)</text><text x="66" y="215" font-size="18">Prior for θ</text>
+<rect x="450" y="90" width="300" height="150" rx="12" fill="#f1f7ed" stroke="#638967" stroke-width="3"/>
+<text x="476" y="133" font-size="23" font-weight="bold">Observed records</text><text x="476" y="180" font-size="27">8 ones; 4 zeros</text><text x="476" y="215" font-size="18">12 volunteers</text>
+<rect x="860" y="90" width="298" height="150" rx="12" fill="#f9f1ea" stroke="#a7764c" stroke-width="3"/>
+<text x="886" y="133" font-size="23" font-weight="bold">After the count</text><text x="886" y="180" font-size="31">Beta(10, 6)</text><text x="886" y="215" font-size="18">Posterior for θ</text>
+<path d="M353 164 H426 M739 164 H836" stroke="#355873" stroke-width="5" fill="none"/>
+<path d="M426 164 l-16 -9 v18z M836 164 l-16 -9 v18z" fill="#355873"/>
+<rect x="42" y="274" width="1116" height="72" rx="10" fill="#f5f6f8"/>
+<text x="67" y="318" font-size="24">File proportion: 8/12 = 0.667</text>
+<text x="605" y="318" font-size="24">Posterior mean: 10/16 = 0.625</text>
+</g></svg>

@@ -1,0 +1,31 @@
+{
+  "spec_id": "unit03-intervals-decision-v1",
+  "source": "data/unit02_help_seeking.csv",
+  "source_model": "model-specs/unit02_model.json",
+  "observation_unit": "one fictional volunteer with a seven-day binary reported-contact record",
+  "target": "theta, the reported-contact probability under the comparable-regime Bernoulli sampling model",
+  "success": "1 means at least one contact reported within seven days",
+  "n": 12,
+  "y": 8,
+  "bayesian": {
+    "prior": [2, 2],
+    "posterior": [10, 6],
+    "interval": "central equal-tail posterior probability 0.95",
+    "sensitivity_priors": [[1, 1], [8, 8]]
+  },
+  "frequentist": {
+    "procedure": "Wilson score interval",
+    "confidence_level": 0.95,
+    "sampling_target": "the same Bernoulli probability theta under repeated independent samples of size 12",
+    "z": "standard Normal quantile at 0.975"
+  },
+  "illustrative_decision": {
+    "threshold_theta": 0.6,
+    "utility_if_above": 1,
+    "utility_if_not_above": -1,
+    "utility_no_action": 0,
+    "note": "A hypothetical payoff exercise, not an elicited real-world rule or service recommendation"
+  },
+  "missing": "none in the fictional file",
+  "computation": "exact beta functions and Wilson formula; no MCMC"
+}

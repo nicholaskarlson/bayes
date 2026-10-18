@@ -6,12 +6,12 @@ new-history repository containing the book's **fictional** datasets, variable
 dictionaries, provenance, model specifications, expected numerical results,
 figures, technical notes and runnable code. It does not contain the book text
 or the private authoring history. Record this repository's Git commit when
-reporting a reproduction.
+reporting a reproduction, or the release tag (see Versions below).
 
 ## Run the checks on Ubuntu
 
 ```bash
-git clone git@github.com:nicholaskarlson/bayes.git
+git clone https://github.com/nicholaskarlson/bayes.git
 cd bayes
 python3 -m venv .venv
 .venv/bin/python -m pip install -r open-materials/bayesian-reasoning-with-statistics/scripts/requirements.txt
@@ -25,7 +25,24 @@ Unit 4 exact, joint and sensitivity records with their committed reference
 results. `make r-audit` invokes fourteen independent base-R routes for the
 prelude, Supplement A and Units 1–9; Rscript needs no extra R package. On
 Ubuntu install R with `sudo apt-get install r-base` if needed. The Actions
-workflow exercises Python 3.10/3.12 and the base-R route on clean checkouts.
+workflow exercises Python 3.10/3.12 and the base-R route on clean Ubuntu
+checkouts, and the Python route on a clean Windows checkout.
+
+## Run the Python checks on Windows
+
+In PowerShell, with Python 3.10 to 3.12 from python.org:
+
+```powershell
+git clone https://github.com/nicholaskarlson/bayes.git
+cd bayes
+py -3.12 -m venv .venv
+.venv\Scripts\python -m pip install -r open-materials/bayesian-reasoning-with-statistics/scripts/requirements.txt
+.venv\Scripts\python open-materials/bayesian-reasoning-with-statistics/scripts/verify_public.py
+```
+
+The repository's `.gitattributes` keeps Git from converting line endings, so
+the SHA-256 inventory matches on Windows too. For the base-R route, use
+Ubuntu, WSL, or read the workflow's `r-audit` job.
 
 To follow one example, read the data dictionary and model specification, then
 run `make unit04 PYTHON=.venv/bin/python`; compare its JSON result to
@@ -50,6 +67,17 @@ These checks establish arithmetic agreement under stated models. They cannot
 validate sampling, measurement, exchangeability, causal identification or
 generalization. In particular the before/after paired case does not identify
 an effect and the route comparison is not a randomized intervention.
+
+## Versions
+
+Releases are Git tags. Cite the tag, or the commit it points to.
+
+- `v1.0.0`: the companion as published with the book (commit `bdfb2ac`).
+- `v1.0.1`: the Python check also runs on Windows (forward-slash paths in the
+  inventory check; `.gitattributes` turns off line-ending conversion); the clone
+  commands use HTTPS. No data, dictionary, model specification, expected result
+  or analysis changed. The only `SHA256SUMS` change is the line for
+  `scripts/verify_public.py`.
 
 ## Rights and attribution
 

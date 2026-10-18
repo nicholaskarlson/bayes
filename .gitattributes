@@ -1,0 +1,4 @@
+# Check out every file byte for byte, on every OS. SHA256SUMS records the exact
+# bytes, and one shipped CSV legitimately uses CRLF line endings, so no
+# line-ending conversion is safe here (not even eol=lf).
+* -text

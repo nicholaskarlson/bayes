@@ -47,7 +47,8 @@ def main():
         match = re.fullmatch(r'([a-f0-9]{64})  (.+)', line)
         need(match is not None and match.group(2) not in entries, 'manifest format')
         entries[match.group(2)] = match.group(1)
-    actual = {str(p.relative_to(ROOT)) for p in ROOT.rglob('*')
+    # as_posix(): the manifest uses forward slashes on every OS, Windows included.
+    actual = {p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*')
               if p.is_file() and p != manifest and 'review' not in p.relative_to(ROOT).parts
               and '__pycache__' not in p.parts and p.suffix != '.pyc'}
     need(actual == set(entries), 'file inventory mismatch')

@@ -24,6 +24,15 @@ def run(name, *args):
     return subprocess.check_output([sys.executable, str(SCRIPTS / name), *args], text=True)
 
 
+# Numbers are compared to a relative 1e-8, except where double precision cannot
+# reach that. A bounded minimizer finds a smooth maximum only to about the square
+# root of machine epsilon, so one-ulp differences between platform math libraries
+# (glibc on Linux, the Windows CRT) move the Unit 4 quadrature centering point by
+# up to about 2e-7. That point is a numerical diagnostic, not a reported result;
+# every reported mean, interval and probability is still compared at 1e-8.
+LOOSER = {'.quadrature.mode': 1e-6}
+
+
 def same(observed, expected, location='record'):
     if isinstance(expected, dict):
         need(isinstance(observed, dict) and set(observed) == set(expected), location+' keys')
@@ -34,8 +43,10 @@ def same(observed, expected, location='record'):
         for n, (a, b) in enumerate(zip(observed, expected)):
             same(a, b, location + '[' + str(n) + ']')
     elif isinstance(expected, (float, int)) and not isinstance(expected, bool):
+        tol = next((t for end, t in LOOSER.items() if location.endswith(end)), 1e-8)
         need(isinstance(observed, (float, int)) and abs(observed - expected) <=
-             1e-8 * max(1, abs(expected)), location+' value')
+             tol * max(1, abs(expected)),
+             location + ' value (observed ' + repr(observed) + ', expected ' + repr(expected) + ')')
     else:
         need(observed == expected, location+' value')
 

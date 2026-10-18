@@ -73,11 +73,18 @@ an effect and the route comparison is not a randomized intervention.
 Releases are Git tags. Cite the tag, or the commit it points to.
 
 - `v1.0.0`: the companion as published with the book (commit `bdfb2ac`).
-- `v1.0.1`: the Python check also runs on Windows (forward-slash paths in the
-  inventory check; `.gitattributes` turns off line-ending conversion); the clone
-  commands use HTTPS. No data, dictionary, model specification, expected result
-  or analysis changed. The only `SHA256SUMS` change is the line for
-  `scripts/verify_public.py`.
+- `v1.0.1`: the Python check also runs on Windows. Changes:
+  - the inventory check uses forward-slash paths;
+  - `.gitattributes` turns off line-ending conversion;
+  - the Unit 4 quadrature centering point (`quadrature.mode`) is compared at
+    1e-6 instead of 1e-8. In double precision a maximizer can locate it only to
+    about 1e-7, and it is a numerical diagnostic, not a reported result. Every
+    reported value is still compared at 1e-8;
+  - a failed comparison now prints the observed and expected values;
+  - the clone commands use HTTPS.
+
+  No data, dictionary, model specification, expected result or analysis changed.
+  The only `SHA256SUMS` change is the line for `scripts/verify_public.py`.
 
 ## Rights and attribution
 

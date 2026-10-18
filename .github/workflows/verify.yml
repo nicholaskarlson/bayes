@@ -21,3 +21,14 @@ jobs:
       - uses: actions/checkout@v4
       - run: sudo apt-get update && sudo apt-get install -y r-base
       - run: make r-audit
+  python-windows:
+    # A default Windows checkout (core.autocrlf=true on the runner) tests both
+    # the forward-slash inventory and .gitattributes.
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r open-materials/bayesian-reasoning-with-statistics/scripts/requirements.txt
+      - run: python open-materials/bayesian-reasoning-with-statistics/scripts/verify_public.py

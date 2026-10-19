@@ -23,10 +23,13 @@ make r-audit
 closed-form anchors, runs each primary Python analysis, and compares the four
 Unit 4 exact, joint and sensitivity records with their committed reference
 results. `make r-audit` invokes fourteen independent base-R routes for the
-prelude, Supplement A and Units 1–9; Rscript needs no extra R package. On
-Ubuntu install R with `sudo apt-get install r-base` if needed. The Actions
-workflow exercises Python 3.10/3.12 and the base-R route on clean Ubuntu
-checkouts, and the Python route on a clean Windows checkout.
+prelude, Supplement A and Units 1–9; Rscript needs no extra R package, and
+any R from 3.6 on works. `make r-audit` prints the R version first, so a
+report shows which R ran the checks. On Ubuntu install R with
+`sudo apt-get install r-base` if needed. The Actions workflow exercises
+Python 3.10/3.12 and the base-R route on clean Ubuntu checkouts (Ubuntu's
+current R, and R 3.6.3 on Ubuntu 20.04), and the Python route on a clean
+Windows checkout.
 
 ## Run the Python checks on Windows
 
@@ -85,6 +88,21 @@ Releases are Git tags. Cite the tag, or the commit it points to.
 
   No data, dictionary, model specification, expected result or analysis changed.
   The only `SHA256SUMS` change is the line for `scripts/verify_public.py`.
+- `v1.0.2`: the base-R checks also run on R before 4.0. Changes:
+  - five R checks now pass `stringsAsFactors=FALSE` to `read.csv()`, as the
+    other R scripts already did: `verify_primer_in_R.R`,
+    `verify_prelude_in_R.R`, `verify_unit04_checks_in_R.R`,
+    `verify_unit04_joint_in_R.R` and `verify_unit04_likelihood_in_R.R`.
+    Before R 4.0, `read.csv()` turns text columns into factors by default, so
+    on an older R the participant-ID check in `verify_unit04_checks_in_R.R`
+    stopped with
+    `identical(raw$participant_id, sprintf("P%03d", 1:64)) is not TRUE`;
+  - `make r-audit` prints the R version before the checks;
+  - the Actions workflow also runs `make r-audit` on R 3.6.3 (Ubuntu 20.04).
+
+  No data, dictionary, model specification, expected result, analysis or
+  reported number changed. The only `SHA256SUMS` changes are the lines for
+  those five R checks.
 
 ## Rights and attribution
 

@@ -1,6 +1,6 @@
 args <- commandArgs(trailingOnly=TRUE)
 root <- if (length(args) > 0) args[[1]] else 'open-materials/bayesian-reasoning-with-statistics'
-reference <- read.csv(file.path(root, 'expected-results/prelude_grid.csv'))
+reference <- read.csv(file.path(root, 'expected-results/prelude_grid.csv'), stringsAsFactors = FALSE)
 stopifnot(identical(names(reference), c('theta', 'prior', 'relative_fit', 'product', 'posterior')),
           nrow(reference) == 9L, all(abs(reference$theta - (1:9)/10) < 1e-12))
 theta <- reference$theta

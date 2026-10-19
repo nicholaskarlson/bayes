@@ -6,6 +6,7 @@ verify:
 	$(PYTHON) $(RESOURCE)/scripts/verify_public.py
 
 r-audit:
+	@Rscript -e 'cat(R.version.string, "\n")'
 	Rscript $(RESOURCE)/scripts/verify_primer_in_R.R
 	Rscript $(RESOURCE)/scripts/verify_prelude_in_R.R
 	Rscript $(RESOURCE)/scripts/verify_unit01_in_R.R

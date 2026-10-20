@@ -47,5 +47,5 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{heigh
 <text x="{left+68}" y="{top+20}" font-family="Liberation Sans, sans-serif" font-size="13" fill="#bd5839">Posterior</text>
 <text x="{right-128}" y="{top+20}" font-family="Liberation Sans, sans-serif" font-size="12" fill="#805c00">2-point threshold</text>
 </svg>\n'''
-destination.write_text(svg, encoding="utf-8")
+destination.write_text(svg, encoding="utf-8", newline="\n")
 print("BAYESIAN_UNIT04_FIGURE_OK", str(destination))

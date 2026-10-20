@@ -47,3 +47,7 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -r open-materials/bayesian-reasoning-with-statistics/scripts/requirements.txt
       - run: python open-materials/bayesian-reasoning-with-statistics/scripts/verify_public.py
+      - name: Independent Python checks
+        run: |
+          Get-ChildItem open-materials/bayesian-reasoning-with-statistics/scripts/verify_*_independent.py |
+            ForEach-Object { python $_.FullName; if ($LASTEXITCODE) { throw "failed: $($_.Name)" } }

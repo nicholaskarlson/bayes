@@ -58,4 +58,4 @@ def make_svg():
 
 if __name__ == "__main__":
     if len(sys.argv)!=2:raise SystemExit("usage: make_unit04_joint_figure.py OUTPUT.svg")
-    Path(sys.argv[1]).write_text(make_svg(),encoding="utf-8")
+    Path(sys.argv[1]).write_text(make_svg(),encoding="utf-8",newline="\n")

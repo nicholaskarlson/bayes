@@ -8,6 +8,16 @@ figures, technical notes and runnable code. It does not contain the book text
 or the private authoring history. Record this repository's Git commit when
 reporting a reproduction, or the release tag (see Versions below).
 
+## Free quick-start guide
+
+*Bayesian Reasoning with Statistics: A Free Quick-Start Guide* (CC BY 4.0)
+says what the book does and for whom, and walks through one case from this
+repository, Unit 7, in Python and in base R:
+https://doi.org/10.5281/zenodo.23513025. That DOI always resolves to the
+latest version; version 1.0 (October 20, 2026, checked against release
+`v1.0.2`) is https://doi.org/10.5281/zenodo.23513026. The guide's DOI
+identifies the guide, not the book.
+
 ## Run the checks on Ubuntu
 
 ```bash
